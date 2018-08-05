@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Digital subscription</title>
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald|Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Caveat|IBM+Plex+Mono|Inconsolata|Poiret+One" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+	*{
+		margin:0;
+		padding: 0;
+	}
+	body
+	{
+		background-color: #000;
+	}
+	.container1
+	{
+		position:absolute;
+		height: 700px;
+	}
+	.backimg
+	{
+		background-image:linear-gradient(to top,#000 10%,transparent 80%), url('back.jpg');
+
+		background-size: cover;
+		background-position: center;
+		min-height: 100%;
+		width: 100%;
+		position: absolute;
+	}
+	.backcontent
+	{
+		background-color: rgba(0,0,0,0.5);
+		background-size: cover;
+		background-position: center;
+		min-height: 100%;
+		width: 100%;
+		position: absolute;
+	}
+	.signup
+	{
+		position: absolute;
+		top: 20px;
+		right: 5%;
+	}
+	.leftcontent
+	{
+		color: white;
+		position: absolute;
+		top: 200px;
+	}
+	.section2
+	{
+		background-color: black;
+		
+		height: 600px;
+		position: relative;
+	}
+	.backimg2
+	{
+		background-image:linear-gradient(to top,#000 10%,transparent 58%), linear-gradient(to left, #000 50%, transparent 58%),url(1.jpg);
+		width: 100%;
+		min-height: 100%;
+		margin-top: -25px;
+		background-position: left;
+		background-size: cover;
+		position:absolute;
+	}
+	.transparent2
+	{
+		background-color: rgba(0,0,0,0.5);
+		background-size: cover;
+		background-position: center;
+		min-height: 100%;
+		width: 100%;
+		position: absolute;
+		margin-right: 15px;
+	}
+	.content2
+	{
+		position: absolute;
+		right: 19px;
+		top: 20%;
+		width: 40%;
+		color: rgba(255,255,255);
+		
+	}
+	.section3
+	{
+		background-color: black;
+		
+		height: 600px;
+		position: relative;
+	}
+	.backimg3
+	{
+		background-image:linear-gradient(to top,#000 10%,transparent 58%), linear-gradient(to right, #000 50%, transparent 58%),url(2.jpg);
+		width: 100%;
+		min-height: 100%;
+		
+		background-position: right;
+		background-size: cover;
+		position:absolute;
+	}
+	.transparent3
+	{
+		background-color: rgba(0,0,0,0.5);
+		background-size: cover;
+		background-position: center;
+		min-height: 100%;
+		width: 100%;
+		position: absolute;
+		margin-right: 15px;
+	}
+	.content3
+	{
+		position: absolute;
+		left: 25px;
+		top: 20%;
+		width: 40%;
+		color: rgba(255,255,255);
+		
+	}
+	.section4
+	{
+		background-color: black;
+		
+		height: 600px;
+		position: relative;
+	}
+	.backimg4
+	{
+		background-image:linear-gradient(to top,#000 10%,transparent 58%), linear-gradient(to left, #000 50%, transparent 58%),url(4.jpg);
+		width: 100%;
+		min-height: 100%;
+		margin-top: -25px;
+		background-position: left;
+		
+		position:absolute;
+	}
+	.transparent4
+	{
+		background-color: rgba(0,0,0,0.5);
+		background-size: cover;
+		background-position: center;
+		min-height: 100%;
+		width: 100%;
+		position: absolute;
+		margin-right: 15px;
+	}
+	.content4
+	{
+		position: absolute;
+		right: 19px;
+		top: 20%;
+		width: 40%;
+		color: rgba(255,255,255);
+		
+	}
+	.foot1
+    	{
+    		background-color: #000;
+    		padding: 30px 15px; 
+    		color: white;
+    	}
+    	
+    	.foot2
+    	{
+    		text-align: center;
+    	}
+    	.foot1 li
+    	{
+    		list-style-type: none;
+    		line-height: 30px;
+    		font-size: 12px;
+    	}
+    	a
+    	{
+    		color: rgba(255,255,255,0.7);
+    	}
+    	a:hover
+    	{
+    		color: rgba(255,255,255,0.7);
+    	}
+	
+	</style>
+</head>
+<body>
+	<header>
+	<div class="backimg container1">
+		<div class="backcontent">
+			<div class="container-fluid">
+				<div class="col-sm-12">
+				<div class="logo">
+					<h3 style="color: white;font-size: 40px; margin-left: 15px;">LOGO</h3>
+				</div>
+				<div class="signup">
+					<a href="signup.html" type="submit" class="btn btn-danger">Sign In</a>
+				</div>
+				<div class="leftcontent">
+					<h1 style="font-size: 55px;font-weight: 800;width: 70%;">Watch awesome shows and videos.</h1>
+					<br><br>
+					<h4 style="font-size: 27px; font-weight: 650; ">Watch anywhere, Cancel anytime.</h4>
+					<br>
+					<a href="signup.html" role="submit" class="btn btn-danger btn-lg" >Watch Now</a>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</header>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	
+	<div class="section2">
+		<div class="backimg2">
+			<div class="transparent2">
+				<div class="container-fluid">
+				<div class="content2">
+				<h2 style="font-size: 40px;">Great Entertainment</h2>
+				<br>
+				<p style="font-size: 18px; text-align: justify;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+				<center><a href="signup.html" type="submit" class="btn btn-danger btn-lg" style="padding: 10px 35px;">Start Now</a></center>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="section3">
+		<div class="backimg3">
+			<div class="transparent3">
+				<div class="container-fluid">
+				<div class="content3">
+				<h2 style="font-size: 40px;">Download and GO!</h2>
+				<br>
+				<p style="font-size: 18px; text-align: justify;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+				<br>
+				
+				<br>
+				<center><a href="signup.html" type="submit" class="btn btn-danger btn-lg" style="padding: 10px 35px;">I want it NOW</a></center>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section4">
+		<div class="backimg4">
+			<div class="transparent4">
+				<div class="container-fluid">
+				<div class="content4">
+				<h2 style="font-size: 40px;">Even Better on BIG SCREENS</h2>
+				<br>
+				<p style="font-size: 18px; text-align: justify;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+				<br><br>
+				<center><a href="signup.html" type="submit" class="btn btn-danger btn-lg" style="padding: 10px 35px;">I'm Loving it.</a></center>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br><br><br><br>
+
+		<div class="foot1">
+		<div class="container">
+			<div class="col-xs-12">
+				<h5 style="color: rgba(255,255,255,0.7);text-align: center;">Questions? Contact us</h5>
+			</div>
+			<br><br><br>
+			<div class="col-xs-3">
+				<ul>
+				<li><a href="#">FAQ</a></li>
+				<li><a href="#">Investor Relations</a></li>
+				<li><a href="#">Privacy</a></li>
+				<li><a href="#">Speed Test</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-3">
+				<li><a href="#">Help Center</a></li>
+				<li><a href="#">Jobs</a></li>
+				<li><a href="#">Cookie Preferences</a></li>
+				<li><a href="#">Legal Notices</a></li>
+			</div>
+			<div class="col-xs-3">
+				<li><a href="#">Account</a></li>
+				<li><a href="#">Ways to Watch</a></li>
+				<li><a href="#">Corporate Infromation</a></li>
+				<li><a href="#">Originals</a></li>
+			</div>
+			<div class="col-xs-3">
+				<li><a href="#">Media Center</a></li>
+				<li><a href="#">Terms of use</a></li>
+				<li><a href="#">Contact us</a></li>
+			</div>
+			<br><br><br><br><br><br><br><br><br><br>
+			<div class="foot2">
+			<h1 style="font-size: 20px; opacity: 0.7; font-weight: bold;">Brand name</h1>
+			<h5 style="color: rgba(255,255,255,0.7);">Copyright Brand | All Rights Reserved.</h5>
+			<h6 style="color: rgba(255,255,255,0.7);">Powered by Anmol Jindal.</h6>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
